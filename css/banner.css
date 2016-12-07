@@ -1,0 +1,103 @@
+.slider {
+	 width: 880px;
+	 height: 400px;	
+	 position: absolute;
+	 margin: auto;
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	-o-box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+#banner{
+	width: 880px;
+	height: 400px;
+	margin: auto;
+	position: relative;
+	float: left;
+	
+}
+
+#animacion-a{
+	animation: slider-a 20s ease 3s infinite;
+	-moz-animation: slider-a 20s ease 3s infinite;
+	-webkit-animation: slider-a 20s ease 3s infinite;
+	-o-animation: slider-a 20s ease 3s infinite;
+}
+
+	@keyframes slider-a{
+		0%{opacity: 1}
+		20%{opacity: 1}
+		40%{opacity: 1}
+		60%{opacity: 1}
+		80%{opacity: 1}
+		100%{opacity: 1}
+	}
+
+#animacion-b{
+	animation: slider-b 20s ease 3s infinite;
+	-moz-animation: slider-b 20s ease 3s infinite;
+	-webkit-animation: slider-b 20s ease 3s infinite;
+	-o-animation: slider-b 20s ease 3s infinite;
+}
+
+	@keyframes slider-b{
+		0%{opacity: 1}
+		20%{opacity: 1}
+		40%{opacity: 1}
+		60%{opacity: 1}
+		80%{opacity: 0}
+		100%{opacity: 1}
+
+	}
+#animacion-c{
+	animation: slider-c 20s ease 3s infinite;
+	-moz-animation: slider-c 20s ease 3s infinite;
+	-webkit-animation: slider-c 20s ease 3s infinite;
+	-o-animation: slider-c 20s ease 3s infinite;
+}
+
+	@keyframes slider-c{
+		0%{opacity: 1}
+		20%{opacity: 1}
+		40%{opacity: 1}
+		60%{opacity: 0}
+		80%{opacity: 0}
+		100%{opacity: 1}
+
+	}
+
+#animacion-d{
+	animation: slider-d 20s ease 3s infinite;
+	-moz-animation: slider-d 20s ease 3s infinite;
+	-webkit-animation: slider-d 20s ease 3s infinite;
+	-o-animation: slider-d 20s ease 3s infinite;
+}
+
+	@keyframes slider-d{
+		0%{opacity: 1}
+		20%{opacity: 1}
+		40%{opacity: 0}
+		60%{opacity: 0}
+		80%{opacity: 0}
+		100%{opacity: 1}
+
+	}
+
+#animacion-e{
+	animation: slider-e 20s ease 3s infinite;
+	-moz-animation: slider-e 20s ease 3s infinite;
+	-webkit-animation: slider-e 20s ease 3s infinite;
+	-o-animation: slider-e 20s ease 3s infinite;
+}
+
+	@keyframes slider-e{
+		0%{opacity: 1}
+		20%{opacity: 0}
+		40%{opacity: 0}
+		60%{opacity: 0}
+		80%{opacity: 0}
+		100%{opacity: 1}
+
+	}
+
